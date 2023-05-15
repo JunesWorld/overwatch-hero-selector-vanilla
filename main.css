@@ -1,3 +1,14 @@
+/*
+[상위요소~하위요소 순서대로 작성]
+1. body
+2. .container
+3. .container .heroes
+4. .container .heroes .hero
+5. .container .heroes .hero .image
+6. .container .logo
+7. .container .logo img
+*/
+
 body { /* body는 블락요소 가로 너비는 최대한 늘어나는 성격을 가지니 안정해줘도 된다(Test3) */
   height: 100vh; /* 100=화면에 보이는 전체 영역 = body영역 */
   background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-vanilla/master/images/bg.jpg");
